@@ -1,0 +1,131 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>Code</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <!-- CSS concatenated and minified via ant build script-->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- end CSS-->
+
+  <script src="js/libs/modernizr-2.0.6.min.js"></script>
+</head>
+
+<body>
+
+  <div id="container">
+    <header>
+      <h1>So<span style="letter-spacing: 0.08em">f</span>tware for scientists</h1>
+      <h2 class="byline">Proteomic and glycomic geekery</h2>
+    </header>
+    <div id="main" role="main">
+      <section>
+      <div>
+        <h3>Phosphorylation / nsSNP</h3>
+        <p>
+          An analysis of the relationship between post-translational modifications and the rates of non-synonymous phosphorylation. In press.
+        </p>
+      </div>
+      <div>
+        <h3>Orthology map</h3>
+        <p>Intricate map of how many proteins are shared between the golgi
+          proteomes of multiple species. This map was automatically generated
+          and then cleaned up using Illustrator.
+        </p>
+      </section>
+      <section class="javascript">
+      <div>
+        <h3>MASCP-jstools</h3>
+        <p>
+          A toolkit for performing bioinformatic analysis on proteomic data 
+          for <em>Arabidopsis thaliana</em>. Developed while at <a href="http://jbei.org">JBEI</a> the software aggregates data from multiple
+          data sources and presents it all in an easy to use interface.
+          Even better, these same libraries can be taken from the web browser
+          and run from the command line, or on the server with little to no
+          modification of your code.
+        </p>
+      </div>
+      </section>
+      <section class="javascript">
+        <div>
+          <h3>GATOR</h3>
+          <p>
+            Advanced web-app that takes advantage of the MASCP-jstools, and 
+            aggregates data together.
+          </p>
+        </div>
+      </section>
+      <section class="unfinished javascript">
+        <div>
+          <h3>Sugar viewer/builder</h3>
+          <p>
+            Simple app/widget for drawing structures. Entirely vector-based,
+            using SVG to generate the images. This application currently is
+            dependent on a server-side component to run, but there's a 
+            long-running project where it will be eventually moved across
+            to running in pure javascript on either the server or browser. 
+          </p>
+        </div>
+      </section>
+      <section class="unfinished ruby">
+        <div>
+          <h3>Sugarcore</h3>
+          <p>
+            Core classes written to manipulate carbohydrate structural data.
+            Primarily written to assist me in doing analysis during my PhD, it 
+            was later enhanced to add the ability to generate composite 
+            structures, which can be seen in the Sugar viewer/builder. While
+            this code largely works, it's not in a great state for anyone to
+            simply use.
+          </p>
+        </div>
+      </section>
+      <section class="archive perl">
+        <div>
+          <h3>GlycoSuite</h3>
+          <p>
+            Perl web-app actively maintained from 2001-2003. Unfortunately,
+            the source code for the application is not publicly available,    
+            but it is still alive, and can be found hosted at Expasy.</p> 
+      </section>
+    </div>
+    <footer>
+
+    </footer>
+  </div> <!--! end of #container -->
+
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.6.2.min.js"><\/script>')</script>
+
+
+  <!-- scripts concatenated and minified via ant build script-->
+  <script defer src="js/plugins.js"></script>
+  <script defer src="js/script.js"></script>
+  <!-- end scripts-->
+
+
+  <script> // Change UA-XXXXX-X to be your site's ID
+    window._gaq = [['_setAccount','UAXXXXXXXX1'],['_trackPageview'],['_trackPageLoadTime']];
+    Modernizr.load({
+      load: ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js'
+    });
+  </script>
+
+
+  <!--[if lt IE 7 ]>
+    <script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+    <script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+  <![endif]-->
+  
+</body>
+</html>
