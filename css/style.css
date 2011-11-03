@@ -94,6 +94,7 @@ h2.byline {
 
 
 section {
+    position: relative;
     width: 307px;
     height: 307px;
     padding: 10px;
@@ -111,7 +112,10 @@ section h3 {
     letter-spacing: .2em;
 }
 
-
+a img {
+    -moz-border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+}
 
 
 
